@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Smokeball.API/bin
+/Smokeball.API/obj
+/Smokeball.API/Properties/PublishProfiles
+/Smokeball.Common/bin
+/Smokeball.Common/obj
+/Smokeball.Desktop/bin
+/Smokeball.Desktop/obj
+/Smokeball.Domain/bin
+/Smokeball.Domain/obj
+/Smokeball.UnitTest/bin
+/Smokeball.UnitTest/obj
+/Smokeball.UnitTest/bin/Debug/netcoreapp3.1

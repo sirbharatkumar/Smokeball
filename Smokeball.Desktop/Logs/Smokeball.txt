@@ -1,0 +1,1293 @@
+
+**** Trace Opened Local:          2021-11-03 13:04:50.173 UTC: 2021-11-03 02:04:50.175 ****
+
+ Logged Date : 2021-11-03 13:04:53,664,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:52),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 13:04:53,755,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 13:04:59,714,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:47),
+ Level :          ERROR,
+ Logged Message : GetSearchResult Exception: System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it.)
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(String searchText, String searchUrlInResult) in C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:line 47,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 13:05:00,051,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:49),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+**** Trace Opened Local:          2021-11-03 13:25:57.455 UTC: 2021-11-03 02:25:57.457 ****
+
+ Logged Date : 2021-11-03 13:25:57,531,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow..ctor(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:44),
+ Level :          INFO,
+ Logged Message : Smokeball Web Search Application started !!,
+ Method Detail :          .ctor 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 13:25:58,171,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 13:25:58,205,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 13:26:04,409,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:47),
+ Level :          ERROR,
+ Logged Message : GetSearchResult Exception: System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it.)
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(String searchText, String searchUrlInResult) in C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:line 47,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 13:26:05,124,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+**** Trace Opened Local:          2021-11-03 13:26:56.322 UTC: 2021-11-03 02:26:56.323 ****
+
+ Logged Date : 2021-11-03 13:26:56,396,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow..ctor(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:44),
+ Level :          INFO,
+ Logged Message : Smokeball Web Search Application started !!,
+ Method Detail :          .ctor 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 13:26:59,323,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 13:26:59,372,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 13:27:02,385,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 13:27:02,697,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+**** Trace Opened Local:          2021-11-03 14:04:27.473 UTC: 2021-11-03 03:04:27.475 ****
+
+ Logged Date : 2021-11-03 14:04:27,514,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow..ctor(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:44),
+ Level :          INFO,
+ Logged Message : Smokeball Web Search Application started !!,
+ Method Detail :          .ctor 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:30,356,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:30,391,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:32,948,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:33,457,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:37,620,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:52),
+ Level :          INFO,
+ Logged Message : Seach button clicked started !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:42,097,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:42,100,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:44,106,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:44,111,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:44,113,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:54),
+ Level :          INFO,
+ Logged Message : Seach button clicked finished !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:45,707,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:52),
+ Level :          INFO,
+ Logged Message : Seach button clicked started !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:45,709,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:45,711,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:47,521,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:47,523,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:47,524,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:54),
+ Level :          INFO,
+ Logged Message : Seach button clicked finished !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:48,973,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:52),
+ Level :          INFO,
+ Logged Message : Seach button clicked started !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:48,975,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:48,977,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:50,835,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:50,841,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:50,843,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:54),
+ Level :          INFO,
+ Logged Message : Seach button clicked finished !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:55,290,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:52),
+ Level :          INFO,
+ Logged Message : Seach button clicked started !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:55,291,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:55,293,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:57,202,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:57,210,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:04:57,211,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:54),
+ Level :          INFO,
+ Logged Message : Seach button clicked finished !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+**** Trace Opened Local:          2021-11-03 14:09:21.795 UTC: 2021-11-03 03:09:21.796 ****
+
+ Logged Date : 2021-11-03 14:09:21,842,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow..ctor(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:44),
+ Level :          INFO,
+ Logged Message : Smokeball Web Search Application started !!,
+ Method Detail :          .ctor 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:09:22,211,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:09:22,247,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:09:25,328,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:09:25,622,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:09:28,964,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:52),
+ Level :          INFO,
+ Logged Message : Seach button clicked started !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:09:28,966,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:09:28,967,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:09:30,815,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:09:30,826,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:09:30,829,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:54),
+ Level :          INFO,
+ Logged Message : Seach button clicked finished !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:09:35,714,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:52),
+ Level :          INFO,
+ Logged Message : Seach button clicked started !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:09:35,716,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:09:35,717,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:09:37,603,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:09:37,609,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:09:37,611,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:54),
+ Level :          INFO,
+ Logged Message : Seach button clicked finished !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+**** Trace Opened Local:          2021-11-03 14:10:34.510 UTC: 2021-11-03 03:10:34.511 ****
+
+ Logged Date : 2021-11-03 14:10:34,562,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow..ctor(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:44),
+ Level :          INFO,
+ Logged Message : Smokeball Web Search Application started !!,
+ Method Detail :          .ctor 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:10:34,864,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:10:34,903,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:10:37,297,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:10:37,478,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:10:40,888,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:52),
+ Level :          INFO,
+ Logged Message : Seach button clicked started !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:10:40,890,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:10:40,891,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:10:43,690,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:10:43,698,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:10:43,700,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:54),
+ Level :          INFO,
+ Logged Message : Seach button clicked finished !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+**** Trace Opened Local:          2021-11-03 14:12:55.573 UTC: 2021-11-03 03:12:55.575 ****
+
+ Logged Date : 2021-11-03 14:12:55,612,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow..ctor(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:44),
+ Level :          INFO,
+ Logged Message : Smokeball Web Search Application started !!,
+ Method Detail :          .ctor 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:12:55,992,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:12:56,023,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:12:58,555,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:12:58,898,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:13:02,456,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:52),
+ Level :          INFO,
+ Logged Message : Seach button clicked started !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:13:02,458,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:13:02,459,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:13:04,402,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:13:04,411,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:13:04,414,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:54),
+ Level :          INFO,
+ Logged Message : Seach button clicked finished !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:13:07,222,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:52),
+ Level :          INFO,
+ Logged Message : Seach button clicked started !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:13:07,224,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:13:07,226,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:13:09,138,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:13:09,144,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:13:09,146,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:54),
+ Level :          INFO,
+ Logged Message : Seach button clicked finished !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+**** Trace Opened Local:          2021-11-03 14:14:45.069 UTC: 2021-11-03 03:14:45.070 ****
+
+ Logged Date : 2021-11-03 14:14:45,109,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow..ctor(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:44),
+ Level :          INFO,
+ Logged Message : Smokeball Web Search Application started !!,
+ Method Detail :          .ctor 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:14:45,475,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:14:45,512,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:14:48,066,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:14:48,207,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:14:53,443,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:52),
+ Level :          INFO,
+ Logged Message : Seach button clicked started !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:14:53,446,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:14:53,447,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:14:55,225,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:14:55,246,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:14:55,249,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:54),
+ Level :          INFO,
+ Logged Message : Seach button clicked finished !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:14:58,055,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:52),
+ Level :          INFO,
+ Logged Message : Seach button clicked started !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:14:58,056,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:14:58,057,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:14:59,832,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:14:59,840,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:14:59,843,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:54),
+ Level :          INFO,
+ Logged Message : Seach button clicked finished !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:15:00,656,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:52),
+ Level :          INFO,
+ Logged Message : Seach button clicked started !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:15:00,657,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:15:00,659,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:15:02,485,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:15:02,488,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:15:02,489,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:54),
+ Level :          INFO,
+ Logged Message : Seach button clicked finished !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+**** Trace Opened Local:          2021-11-03 14:17:40.412 UTC: 2021-11-03 03:17:40.413 ****
+
+ Logged Date : 2021-11-03 14:17:40,441,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow..ctor(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:44),
+ Level :          INFO,
+ Logged Message : Smokeball Web Search Application started !!,
+ Method Detail :          .ctor 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:17:40,686,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:17:40,706,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:17:43,104,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:17:43,342,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:17:45,466,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:52),
+ Level :          INFO,
+ Logged Message : Seach button clicked started !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:17:45,482,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:17:45,484,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:17:47,322,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:17:47,335,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:17:47,338,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:54),
+ Level :          INFO,
+ Logged Message : Seach button clicked finished !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:17:52,065,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:52),
+ Level :          INFO,
+ Logged Message : Seach button clicked started !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:17:52,067,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:17:52,068,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:17:53,933,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:17:53,938,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:17:53,940,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.btnWebSearch_Click(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:54),
+ Level :          INFO,
+ Logged Message : Seach button clicked finished !!,
+ Method Detail :          btnWebSearch_Click 
+ ********************** 
+ 
+**** Trace Opened Local:          2021-11-03 14:23:51.340 UTC: 2021-11-03 03:23:51.341 ****
+
+ Logged Date : 2021-11-03 14:23:51,400,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow..ctor(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:44),
+ Level :          INFO,
+ Logged Message : Smokeball Web Search Application started !!,
+ Method Detail :          .ctor 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:23:51,805,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:61),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking started !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:23:51,842,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:29),
+ Level :          INFO,
+ Logged Message : GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:23:54,395,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs,
+ Location : Smokeball.Desktop.Connector.HttpConnector.GetSearchResult(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\Connector\HttpConnector.cs:60),
+ Level :          INFO,
+ Logged Message : GetSearchResult Completed,
+ Method Detail :          GetSearchResult 
+ ********************** 
+ 
+ Logged Date : 2021-11-03 14:23:54,550,
+ Exception :          ,
+ File : C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs,
+ Location : Smokeball.Desktop.MainWindow.PerformWebSearch(C:\Users\sir_b\source\repos\Smokeball\Smokeball.Desktop\MainWindow.xaml.cs:58),
+ Level :          INFO,
+ Logged Message : Seach text and determine website ranking finished !!,
+ Method Detail :          PerformWebSearch 
+ ********************** 
+ **** Trace Closed 2021-11-03 14:24:02.293 ****
+2021-11-03 21:52:24,902 [1] INFO Smokeball.Desktop.MainWindow - Smokeball Web Search Application started !!
+2021-11-03 21:52:25,360 [1] INFO Smokeball.Desktop.MainWindow - Seach text and determine website ranking started !!
+2021-11-03 21:52:25,414 [1] INFO Smokeball.Desktop.Connector.HttpConnector - GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au
+2021-11-03 21:52:28,788 [1] INFO Smokeball.Desktop.Connector.HttpConnector - GetSearchResult Completed
+2021-11-03 21:52:29,190 [1] INFO Smokeball.Desktop.MainWindow - Search Result ranking: 1
+2021-11-03 21:52:29,193 [1] INFO Smokeball.Desktop.MainWindow - Seach text and determine website ranking finished !!
+2021-11-03 21:52:39,721 [1] INFO Smokeball.Desktop.MainWindow - Seach button clicked started !!
+2021-11-03 21:52:39,722 [1] INFO Smokeball.Desktop.MainWindow - Seach text and determine website ranking started !!
+2021-11-03 21:52:39,722 [1] INFO Smokeball.Desktop.Connector.HttpConnector - GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au
+2021-11-03 21:52:41,413 [1] INFO Smokeball.Desktop.Connector.HttpConnector - GetSearchResult Completed
+2021-11-03 21:52:41,416 [1] INFO Smokeball.Desktop.MainWindow - Search Result ranking: 1
+2021-11-03 21:52:41,418 [1] INFO Smokeball.Desktop.MainWindow - Seach text and determine website ranking finished !!
+2021-11-03 21:52:41,419 [1] INFO Smokeball.Desktop.MainWindow - Seach button clicked finished !!
+2021-11-03 21:53:59,488 [1] INFO Smokeball.Desktop.MainWindow - Smokeball Web Search Application started !!
+2021-11-03 21:54:00,089 [1] INFO Smokeball.Desktop.MainWindow - Seach text and determine website ranking started !!
+2021-11-03 21:54:00,153 [1] INFO Smokeball.Desktop.Connector.HttpConnector - GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au
+2021-11-03 21:54:03,656 [1] INFO Smokeball.Desktop.Connector.HttpConnector - GetSearchResult Completed
+2021-11-03 21:54:03,949 [1] INFO Smokeball.Desktop.MainWindow - Search Result ranking: 1
+2021-11-03 21:54:03,952 [1] INFO Smokeball.Desktop.MainWindow - Seach text and determine website ranking finished !!
+2021-11-03 21:54:42,570 [1] INFO Smokeball.Desktop.MainWindow - Seach button clicked started !!
+2021-11-03 21:54:42,572 [1] INFO Smokeball.Desktop.MainWindow - Seach text and determine website ranking started !!
+2021-11-03 21:54:42,572 [1] INFO Smokeball.Desktop.Connector.HttpConnector - GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au
+2021-11-03 21:54:44,024 [1] INFO Smokeball.Desktop.Connector.HttpConnector - GetSearchResult Completed
+2021-11-03 21:56:06,498 [1] INFO Smokeball.Desktop.MainWindow - Smokeball Web Search Application started !!
+2021-11-03 21:56:06,885 [1] INFO Smokeball.Desktop.MainWindow - Seach text and determine website ranking started !!
+2021-11-03 21:56:06,925 [1] INFO Smokeball.Desktop.Connector.HttpConnector - GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au
+2021-11-03 21:56:09,421 [1] INFO Smokeball.Desktop.Connector.HttpConnector - GetSearchResult Completed
+2021-11-03 21:56:11,908 [1] INFO Smokeball.Desktop.MainWindow - Search Result ranking: 1
+2021-11-03 21:56:11,910 [1] INFO Smokeball.Desktop.MainWindow - Seach text and determine website ranking finished !!
+2021-11-03 21:56:16,997 [1] INFO Smokeball.Desktop.MainWindow - Seach button clicked started !!
+2021-11-03 21:56:16,998 [1] INFO Smokeball.Desktop.MainWindow - Seach text and determine website ranking started !!
+2021-11-03 21:56:16,999 [1] INFO Smokeball.Desktop.Connector.HttpConnector - GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au
+2021-11-03 21:56:18,583 [1] INFO Smokeball.Desktop.Connector.HttpConnector - GetSearchResult Completed
+2021-11-03 21:56:20,344 [1] INFO Smokeball.Desktop.MainWindow - Search Result ranking: 1
+2021-11-03 21:56:20,345 [1] INFO Smokeball.Desktop.MainWindow - Seach text and determine website ranking finished !!
+2021-11-03 21:56:20,346 [1] INFO Smokeball.Desktop.MainWindow - Seach button clicked finished !!
+2021-11-03 21:56:35,508 [1] INFO Smokeball.Desktop.MainWindow - Seach button clicked started !!
+2021-11-03 21:56:35,509 [1] INFO Smokeball.Desktop.MainWindow - Seach text and determine website ranking started !!
+2021-11-03 21:56:35,510 [1] INFO Smokeball.Desktop.Connector.HttpConnector - GetSearchResult Parameter SearchText: conveyancing software; SearchUrlInResult: www.smokeball.com.au
+2021-11-03 21:56:36,945 [1] INFO Smokeball.Desktop.Connector.HttpConnector - GetSearchResult Completed
+2021-11-03 21:56:38,602 [1] INFO Smokeball.Desktop.MainWindow - Search Result ranking: 1
+2021-11-03 21:56:38,603 [1] INFO Smokeball.Desktop.MainWindow - Seach text and determine website ranking finished !!
+2021-11-03 21:56:38,603 [1] INFO Smokeball.Desktop.MainWindow - Seach button clicked finished !!

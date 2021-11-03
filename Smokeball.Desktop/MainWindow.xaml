@@ -1,0 +1,42 @@
+﻿<Window x:Class="Smokeball.Desktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Smokeball.Desktop"
+        mc:Ignorable="d"
+        Title="Smokeball Search Tool" Height="450" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label  Height="35" Name="Result" Visibility="Collapsed"/>
+
+        <TabControl x:Name="tabControl">
+            <TabItem Header="Search">
+                <Grid Background="#FFFFFF">
+                    <Label Content="Search Text:" HorizontalAlignment="Left" Margin="70,97,0,0" VerticalAlignment="Top"/>
+                    <Label Content="Search Url in Result:" HorizontalAlignment="Left" Margin="27,138,0,0" VerticalAlignment="Top"/>
+                    <TextBox x:Name="txtSearchText" HorizontalAlignment="Left" Margin="170,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="568" Text="conveyancing software"/>
+                    <TextBox x:Name="txtSearchUrlInResult" HorizontalAlignment="Left" Margin="170,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="568" Text="www.smokeball.com.au" />
+                    <Button x:Name="btnWebSearch" Click="btnWebSearch_Click" Content="Search" HorizontalAlignment="Left" Margin="170,188,0,0" VerticalAlignment="Top" Width="57"/>
+                    <RadioButton x:Name="rdbGoogle" IsChecked="True" GroupName="SearchWebsite" Content="Google" HorizontalAlignment="Left" Margin="70,28,0,0" VerticalAlignment="Top"/>
+                    <RadioButton x:Name="rdbBing" IsEnabled="False" GroupName="SearchWebsite" Content="Bing" HorizontalAlignment="Left" Margin="160,28,0,0" VerticalAlignment="Top"/>
+                    <TextBlock x:Name="lblContent" IsEnabled="False" HorizontalAlignment="Left" Margin="345,188,0,0" VerticalAlignment="Top" Width="393"></TextBlock>
+                    <TextBlock x:Name="lblProcess" Text="" IsEnabled="False" HorizontalAlignment="Left" Margin="170,65,0,0" VerticalAlignment="Top" Width="427"></TextBlock>
+                    <Label Content="Result:" HorizontalAlignment="Left" Margin="98,230,0,0" VerticalAlignment="Top"/>
+                    <Label x:Name="lblResult" Content="Label" HorizontalAlignment="Left" Margin="170,230,0,0" VerticalAlignment="Top"/>
+                    <Button x:Name="btnReset" Click="btnReset_Click"  Content="Reset" HorizontalAlignment="Left" Margin="259,188,0,0" VerticalAlignment="Top" Width="57"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Preview">
+                <Grid Background="#FFE5E5E5">
+                    <WebBrowser Name="wbSearchContent"/>
+                </Grid>
+
+            </TabItem>
+            <TabItem Header="Graph">
+                <Grid Background="#FFE5E5E5">
+                    <Label x:Name="label" Content="Graph to show the Smokeball ranking for given period !!" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

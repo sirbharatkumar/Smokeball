@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Smokeball.API</name>
+    </assembly>
+    <members>
+        <member name="M:Smokeball.API.Controllers.WebScrapperController.GetWebsiteRanking(Smokeball.Common.RequestModel.SearchRequest)">
+             <summary>
+             Determine the ranking for a given web url within the google search result
+             </summary>
+             <remarks>
+             Sample request:
+            
+                 POST
+                 {
+                     "searchText":"conveyancing software",
+                     "searchUrlInResult":"www.smokeball.com.au"
+                 }
+            
+             </remarks>
+             <param name="request">Search text and Search Url</param>
+             <returns>Result showing the web url ranking and html snippet of the seach result</returns>
+             <response code="200">Returns the success response</response>
+             <response code="400">If the input is not valid</response>  
+             <response code="401">Unauthorized Access can't proceed further</response>  
+        </member>
+        <member name="M:Smokeball.Domain.Handlers.BasicAuthenticationHandler.HandleAuthenticateAsync">
+            <summary>
+            API Authentication Handler
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
