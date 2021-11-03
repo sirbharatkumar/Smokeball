@@ -19,3 +19,7 @@ CEO wants to know how many times their company is listed on google search result
 **Smokeball.Desktop:** WPF application to show the ranking and occurances, along with the HTML search result preview which is provided in next tab to make sure the listing is correct.
 
 **Smokeball.UnitTest:** MS Unit testing project
+
+**Note** 
+1) Before running the WPF application please change the log4Net output path in Desktop project App.Config file
+2) Before running Unit test project please change the htmlMockFilePath in SmokeballService.cs file to your local location
