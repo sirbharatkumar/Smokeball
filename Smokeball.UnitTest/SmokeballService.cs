@@ -15,7 +15,7 @@ namespace Smokeball.UnitTest
         GoogleSearchResultsReader googleSearchResultsReader;
         IHtmlDownloader _htmlDownloader;
         //Please change the Mock file folder before running the Unit test
-        string htmlMockFilePath = @"C:\Users\sir_b\source\repos\Smokeball\Smokeball.UnitTest\MockHtml";
+        string htmlMockFilePath = @"..\Smokeball\Smokeball.UnitTest\MockHtml";
         [TestInitialize]
         public void TestInitialize()
         {
